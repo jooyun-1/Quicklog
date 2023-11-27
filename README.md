@@ -10,22 +10,22 @@ Quicklog는 포스팅을 처음 시작하는 분들이나 어떻게 포스팅을
 
 ## Table of Contents
 
-- [1. 기획 및 설계]
-  - [1.1. 아이디어 배경 및 일정]
-  - [1.2. UI 설계]
-  - [1.3. ERD 설계]
-  - [1.4. 기술스택]
-- [2. 주요 기능]
-  - [2.1. 포스팅 다음 문장 추천]
-  - [2.2. 썸네일 이미지 추천]
-  - [2.3. 포스팅]
-  - [2.4. 피드]
-  - [2.5. 인증]
-- [3. CI/CD 구성 및 Commit Convention]
-- [4. API Server]
-  - [4.1. API Documentation]
-  - [4.2. API Server Interaction]
-- [5. How to use](#4-how-to-use)
+- [1. 기획 및 설계](#1-기획-및-설계)
+  - [1.1. 아이디어 배경 및 일정](#11-아이디어-배경-및-일정)
+  - [1.2. UI 설계](#12-UI-설계)
+  - [1.3. ERD 설계](#13-ERD-설계)
+  - [1.4. 기술스택](#14-기술스택)
+- [2. 주요 기능](#2-주요-기능)
+  - [2.1. 포스팅 다음 문장 추천](#21-포스팅-다음-문장-추천)
+  - [2.2. 썸네일 이미지 추천](#22-썸네일-이미지-추천)
+  - [2.3. 포스팅](#23-포스팅)
+  - [2.4. 피드](#24-포스팅)
+  - [2.5. 인증](#25-인증)
+- [3. CI/CD 구성 및 Commit Convention](#3-CI/CD-구성-및-Commit-Convention)
+- [4. API Server](#4-API-Server)
+  - [4.1. API Documentation](#41-API-Documentation)
+  - [4.2. API Server Interaction](#42-API-Server-Interaction)
+- [5. How to use](#5-how-to-use)
 - [Contacts](#contacts)
   
 <h2>Commit Convention</h2>
