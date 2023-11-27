@@ -74,6 +74,7 @@ Prompter AI 계획 설정 및 UI 구성 | 완료 |  |  |  |
 ## 3. CI/CD 구성 및 Commit Convention
 
 ### 3.1. CI/CD Pipeline
+<img src="https://github.com/ssafyteam/ssafy-toy-project/assets/71087271/f6c14b2a-156d-49c4-a2a9-438dda13de39">
 
 ### 3.2. Commit Convention
 |이모지|태그|설명|
