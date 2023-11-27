@@ -1,6 +1,33 @@
 # Quicklog
 
+## 개요
 
+Quicklog는 포스팅을 처음 시작하는 분들이나 어떻게 포스팅을 이어갈까 고민이 많으신 분들께 **쉽고 빠른 포스팅**을 위하여 AI를 이용하여 **다음 문장과 썸네일 이미지 등을 추천**해주는 서비스입니다.
+
+<br>
+<img width="660" alt="image" src="https://github.com/ssafyteam/ssafy-toy-project/assets/71087271/8988ce42-ab7c-46bd-ab52-ed31bba8b013">
+</br>
+
+## Table of Contents
+
+- [1. 기획 및 설계]
+  - [1.1. 아이디어 배경 및 일정]
+  - [1.2. UI 설계]
+  - [1.3. ERD 설계]
+  - [1.4. 기술스택]
+- [2. 주요 기능]
+  - [2.1. 포스팅 다음 문장 추천]
+  - [2.2. 썸네일 이미지 추천]
+  - [2.3. 포스팅]
+  - [2.4. 피드]
+  - [2.5. 인증]
+- [3. CI/CD 구성 및 Commit Convention]
+- [4. API Server]
+  - [4.1. API Documentation]
+  - [4.2. API Server Interaction]
+- [5. How to use](#4-how-to-use)
+- [Contacts](#contacts)
+  
 <h2>Commit Convention</h2>
 
 |이모지|태그|설명|
