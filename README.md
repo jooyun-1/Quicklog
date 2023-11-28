@@ -22,8 +22,7 @@ Quicklog는 포스팅을 처음 시작하는 분들이나 어떻게 포스팅을
 - [4. API Server](#4-API-Server)
   - [4.1. API Documentation](#41-API-Documentation)
   - [4.2. API Server Interaction](#42-API-Server-Interaction)
-- [5. How to use](#5-how-to-use)
-- [Contacts](#contacts)
+
 
 ## 1. 기획 및 설계
 
@@ -71,11 +70,22 @@ Prompter AI 계획 설정 및 UI 구성 | 완료 |  |  |  |
 </br>
 
 ### 2.2. 썸네일 이미지 추천
-
+- **특징**:
+  - model: Dalle
+- **설명**: 작성한 포스팅 내용이나 사용자의 키워드 입력에 따라 이미지 추천
+  
 ### 2.3. 포스팅
-
+- **설명**:
+  - 포스팅 시, 태그와 카테고리 추가 가능하므로 글 분류를 자세히 할 수 있음
+  - 글 공개, 비공개 설정 가능
+  - 다음 문장 및 이미지 추천 기능이 포함되어 있음
+    
 ### 2.4. 피드
-
+- **설명**:
+  - 전체 포스팅 글 소개
+  - 내 피드 조회
+  - Pagination 구현
+    
 ### 2.5. 인증
 
 #### 1) JWT Pipeline
@@ -84,7 +94,11 @@ Prompter AI 계획 설정 및 UI 구성 | 완료 |  |  |  |
 <img src="https://github.com/ssafyteam/ssafy-toy-project/assets/71087271/43e93f63-53e9-4c56-bbc5-582bbe0a2388">
 </br>
 
-#### OAuth2.0
+#### 2) OAuth2.0
+
+<br>
+<img src="https://github.com/ssafyteam/ssafy-toy-project/assets/71087271/59871c14-0197-4a31-8c16-b254db4797cb">
+</br>
 
 ## 3. CI/CD 구성 및 Commit Convention
 
@@ -103,3 +117,19 @@ Prompter AI 계획 설정 및 UI 구성 | 완료 |  |  |  |
 |twisted_rightwards_arrows|:twisted_rightwards_arrows: Merge:|브랜치 합병|
 |lipstick|:lipstick: Design:|UI 디자인 변경|
 |white_check_mark|:white_check_mark: Test:|테스트 추가, 테스트 리팩토링|
+
+## 4. API Server
+
+### 4.1. API Documentation
+- Swagger를 통한 REST API 문서화
+<img src="https://github.com/ssafyteam/ssafy-toy-project/assets/71087271/c4aa9557-f9c7-4386-b450-cec288cad391">
+<br>
+<img src="https://github.com/ssafyteam/ssafy-toy-project/assets/71087271/acd00a06-0b59-405e-9251-597825503321">
+</br>
+
+### 4.2. API Server Interaction
+
+<img src="https://github.com/ssafyteam/ssafy-toy-project/assets/71087271/23cecfac-131c-4553-9b40-92cbfb81afff">
+
+
+
