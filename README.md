@@ -70,6 +70,12 @@ Prompter AI 계획 설정 및 UI 구성 | 완료 |  |  |  |
 <img width="660" alt="image" src="https://github.com/ssafyteam/ssafy-toy-project/assets/71087271/8988ce42-ab7c-46bd-ab52-ed31bba8b013">
 </br>
 
+### 2.2. 썸네일 이미지 추천
+
+### 2.3. 포스팅
+
+### 2.4. 피드
+
 ### 2.5. 인증
 
 #### 1) JWT Pipeline
