@@ -4,9 +4,6 @@
 
 Quicklog는 포스팅을 처음 시작하는 분들이나 어떻게 포스팅을 이어갈까 고민이 많으신 분들께 **쉽고 빠른 포스팅**을 위하여 AI를 이용하여 **다음 문장과 썸네일 이미지 등을 추천**해주는 서비스입니다.
 
-<br>
-<img width="660" alt="image" src="https://github.com/ssafyteam/ssafy-toy-project/assets/71087271/8988ce42-ab7c-46bd-ab52-ed31bba8b013">
-</br>
 
 ## Table of Contents
 
@@ -63,11 +60,23 @@ Prompter AI 계획 설정 및 UI 구성 | 완료 |  |  |  |
 ## 2. 주요 기능
 
 ### 2.1. 포스팅 다음 문장 추천
+- **특징**:
+  - model: gpt-3.5-turbo
+  - temperature: 0.5
+  - max_tokens: 1000
+- **설명**: 작성 중인 포스팅 내용과 사용자가 직전에 입력한 문장을 기반으로 다음 문장 추천
 
+<br>
+<img width="660" alt="image" src="https://github.com/ssafyteam/ssafy-toy-project/assets/71087271/8988ce42-ab7c-46bd-ab52-ed31bba8b013">
+</br>
 
 ### 2.5. 인증
 
-#### JWT
+#### 1) JWT Pipeline
+
+<br>
+<img src="https://github.com/ssafyteam/ssafy-toy-project/assets/71087271/43e93f63-53e9-4c56-bbc5-582bbe0a2388">
+</br>
 
 #### OAuth2.0
 
